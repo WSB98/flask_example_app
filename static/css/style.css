@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Foldit:wght@600&family=IBM+Plex+Mono&family=Monoton&family=Nunito&family=Open+Sans&display=swap');
+body {
+    margin: 0;
+    background-color: #365097;
+    font-family: 'Nunito';
+}
+
+h1 {
+    text-align: center;
+}
+.grid {
+    justify-content: space-around;
+    top: 100px;
+    width: auto;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    padding: 20px;
+}
+.container {
+    box-shadow: 0px 0px 32px #22222280;
+    border-radius: 12px;
+    position: relative;
+    width: 30%;
+    height: 350px;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.form {
+    position: relative;
+    top: 20px;
+    padding: 6px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: #fffdfa;
+}
+
+.form input {
+    background-color: #fffdfa80;
+    border-radius: 5px;
+    border: 1px solid #000000;
+}
+
+input:focus {
+    border: 1px solid #222222;
+}
+button {
+    border-radius: 5px;
+    height: 32px;
+    width: auto;
+    background-color: #222;
+    color: #fffdfa;
+    cursor: pointer;
+}
